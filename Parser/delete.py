@@ -16,11 +16,8 @@ def delete_folder(folder_name):
 # Example usage
 folder_name = input("Enter the folder name to delete: ")
 opt = input("Are you sure you want to delete the folder " + "'" +folder_name+"'" +" ? -- ")
-if(opt.upper() == "YES" or opt.upper() =="Y"):
+if(opt == "YES" or opt =="Y" or opt == "y" or opt=="yes"):
     delete_folder(folder_name)
 else:
     None
-
-
-
 
